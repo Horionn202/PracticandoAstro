@@ -1,16 +1,14 @@
 ---
  import "../styles/global.css"
+ import Layout from "../layouts/layout.astro"
+ import Space from "../components/Space.astro"
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1 class="">Astro</h1>
-	</body>
-</html>
+<Layout>
+	 
+	<h1 class="text-5xl  text-center" id="home">Home</h1>
+	<Space/>
+	
+
+	
+</Layout>
